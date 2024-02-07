@@ -4,6 +4,29 @@
     <TargetFramework>net7.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+  
+  
+    <!-- Coisas relacionadas a colocar o pacote no NuGet -->
+    <PackageId>MoneyExtensions</PackageId>
+    <Version>1.00</Version>
+    <icon>ApontarUmUrlDo Ícone</icon>
+    <License>MIT</License>
+    <Authors>Renato Didier</Authors>
+    <Company>MyCompany.com</Company>
+    <PackageDescription>Extension to convert numbers</PackageDescription>
+    <Description>Extension to convert numbers</Description>
+    <RepositoryUrl>UrlDoRepositorio</RepositoryUrl>
+    <PackageProjectUrl>UrlDoPackageUrl</PackageProjectUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageIcon>icon.png</PackageIcon>
+    <PackageTags>Money;Int;Decimal;Convertion;</PackageTags>
+    <ReleaseNotes>A lot of numbers converters</ReleaseNotes>
+    <Summary>Extension to convert numbers</Summary>
+  
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="../Media/icon.png" Pack="true" PackagePath="\" />
+  </ItemGroup>
 
 </Project>
